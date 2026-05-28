@@ -4,7 +4,7 @@ import { useState } from "react"
 
 type Message = { role: string; content: string }
 
-const API_URL = "http://localhost:8000"
+const API_URL = "https://khaled0fouad000-knowledge-assistant-api.hf.space"
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([])
